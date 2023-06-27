@@ -1,0 +1,46 @@
+Experiment name: port scanning tools
+
+Procedure:
+
+Step 1: Open Nmap from Kali Linux (Go to Applications->select Information Gathering-
+
+>select 
+
+ Nmap)
+
+Step 2: Perform different types of scans9`
+
+(Tcp, Udp, Ack, Syn, Fin, Null, Xmas, Rpc, Idle)- scan types
+
+Scanning Techniques
+
+Flag
+
+Use
+
+Example
+
+-sS
+
+TCP syn port scan
+
+nmap -sS 192.168.1.1
+
+-sT
+
+TCP connect port scan
+
+nmap -sT 192.168.1.1
+
+–sU
+
+UDP port scan
+
+nmap –sU 192.168.1.1
+
+–sA
+
+TCP ack port scan
+
+nmap –sA 192.168.1.1
+￼Enter
